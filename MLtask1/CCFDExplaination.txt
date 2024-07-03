@@ -1,0 +1,39 @@
+Credit Card Fraud Detection
+
+Project Understanding
+
+This project involves building a machine learning model to detect fraudulent credit card transactions. We use a dataset containing information about credit card transactions and experiment with three algorithms: Logistic Regression, Decision Trees, and Random Forests to classify transactions as fraudulent or legitimate.
+
+Steps in the Project
+
+1. Import Necessary Packages
+Import libraries for data manipulation (`pandas`, `numpy`), model building (`sklearn`), and     evaluation (`seaborn`, `matplotlib`).
+
+2. Load the Dataset
+Load the dataset using `pandas` and perform initial exploration to understand the    structure and contents of the data.
+
+3. Data Preprocessing
+Handle Missing Values: Check for and fill any missing values with the mean. Feature Scaling: Scale the features using `StandardScaler` to standardize the data.
+
+4. Split the Dataset
+Split the dataset into training (80%) and testing (20%) sets using `train_test_split`.
+
+5. Model Building and Training
+Train three different models:
+      Logistic Regression
+      Decision Tree
+      Random Forest
+
+6. Model Evaluation
+ Evaluate each model using the following metrics:
+      Accuracy
+      Recall
+      Precision
+      F1 Score
+ Display a confusion matrix and ROC curve for visual evaluation.
+
+7. Model Comparison
+Compare the performance of the three models based on the evaluation metrics. Select the best model based on the highest F1 Score.
+
+8. Save and Load the Best Model
+Save the best model using `joblib`. Load the model to verify predictions.
