@@ -19,14 +19,14 @@ Create a machine learning model that can predict the genre of a movie based on i
 textual information. You can use techniques like TF-IDF or word embeddings with classifiers such as Naive
 Bayes, Logistic Regression, or Support Vector Machines.
 
-###TASK 4 - SPAM SMS DETECTION
+## TASK 4 - SPAM SMS DETECTION
 
 Build an AI model that can classify SMS messages as spam or legitimate.
 Use techniques like TF-IDF or word embeddings with classifiers like Naive
 Bayes, Logistic Regression, or Support Vector
 Machines to identify spam messages
 
-###TASK 5 - HANDWRITTEN TEXT GENERATION
+## TASK 5 - HANDWRITTEN TEXT GENERATION
 
 Implement a character-level recurrent neural network (RNN) to
 generate handwritten-like text. Train the model on a dataset of
